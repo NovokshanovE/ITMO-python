@@ -59,7 +59,7 @@ hfjr
 13 hfjr
 ```
 
-### Пример c передачей текста через конвейер команд
+### Пример c передачей текста из stdin
 
 ```bash
 ~/ITMO/ITMO-python/hw-1$ echo -e "Hello\nWorld\nThis\nIs\nerwtyte\nywueiw\nertete\tuye\nuheu" | python3 nl.py 
