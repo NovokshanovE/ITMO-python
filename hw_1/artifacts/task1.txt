@@ -1,0 +1,37 @@
+~/ITMO/ITMO-python/hw-1$ cat artifacts/task1/task1_input.txt 
+Hello
+World
+This
+Is
+A
+Tr
+frfr
+
+Worlddwd
+d
+dd
+
+hfjr
+~/ITMO/ITMO-python/hw-1$ python3 nl.py artifacts/task1/task1_input.txt 
+1 Hello
+2 World
+3 This
+4 Is
+5 A
+6 Tr
+7 frfr
+8 
+9 Worlddwd
+10 d
+11 dd
+12 
+13 hfjr
+~/ITMO/ITMO-python/hw-1$ echo -e "Hello\nWorld\nThis\nIs\nerwtyte\nywueiw\nertete\tuye\nuheu" | python3 nl.py 
+1 Hello
+2 World
+3 This
+4 Is
+5 erwtyte
+6 ywueiw
+7 ertete        uye
+8 uheu

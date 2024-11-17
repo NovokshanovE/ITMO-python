@@ -1,0 +1,126 @@
+~/ITMO/ITMO-python/hw-1$ cat artifacts/task2/file1.txt 
+line 1  of file1
+line 2  of file1
+line 3  of file1
+line 4  of file1
+line 5  of file1
+line 6  of file1
+line 7  of file1
+line 8  of file1
+line 9  of file1
+line 10 of file1
+line 11 of file1
+line 12 of file1
+line 13 of file1
+line 14 of file1
+~/ITMO/ITMO-python/hw-1$ cat artifacts/task2/file2.txt 
+line 1  of file2
+line 2  of file2
+line 3  of file2
+line 4  of file2
+line 5  of file2
+line 6  of file2
+line 7  of file2
+line 8  of file2
+line 9  of file2
+line 10 of file2
+line 11 of file2
+line 12 of file2
+line 13 of file2
+line 14 of file2
+line 15 of file2
+line 16 of file2
+~/ITMO/ITMO-python/hw-1$ python3 tail.py artifacts/task2/file1.txt 
+line 5  of file1
+line 6  of file1
+line 7  of file1
+line 8  of file1
+line 9  of file1
+line 10 of file1
+line 11 of file1
+line 12 of file1
+line 13 of file1
+line 14 of file1
+~/ITMO/ITMO-python/hw-1$ python3 tail.py artifacts/task2/file2.txt 
+line 7  of file2
+line 8  of file2
+line 9  of file2
+line 10 of file2
+line 11 of file2
+line 12 of file2
+line 13 of file2
+line 14 of file2
+line 15 of file2
+line 16 of file2
+~/ITMO/ITMO-python/hw-1$ python3 tail.py artifacts/task2/file2.txt artifacts/task2/file1.txt 
+==> artifacts/task2/file2.txt <==
+line 7  of file2
+line 8  of file2
+line 9  of file2
+line 10 of file2
+line 11 of file2
+line 12 of file2
+line 13 of file2
+line 14 of file2
+line 15 of file2
+line 16 of file2
+==> artifacts/task2/file1.txt <==
+line 5  of file1
+line 6  of file1
+line 7  of file1
+line 8  of file1
+line 9  of file1
+line 10 of file1
+line 11 of file1
+line 12 of file1
+line 13 of file1
+line 14 of file1
+~/ITMO/ITMO-python/hw-1$ python3 tail.py artifacts/task2/file2.txt artifacts/task2/file1.txt artifacts/task1/task1_input.txt 
+==> artifacts/task2/file2.txt <==
+line 7  of file2
+line 8  of file2
+line 9  of file2
+line 10 of file2
+line 11 of file2
+line 12 of file2
+line 13 of file2
+line 14 of file2
+line 15 of file2
+line 16 of file2
+==> artifacts/task2/file1.txt <==
+line 5  of file1
+line 6  of file1
+line 7  of file1
+line 8  of file1
+line 9  of file1
+line 10 of file1
+line 11 of file1
+line 12 of file1
+line 13 of file1
+line 14 of file1
+==> artifacts/task1/task1_input.txt <==
+Is
+A
+Tr
+frfr
+
+Worlddwd
+d
+dd
+
+hfjr
+~/ITMO/ITMO-python/hw-1$ cat artifacts/task2/file1.txt | python3 tail.py 
+line 1  of file1
+line 2  of file1
+line 3  of file1
+line 4  of file1
+line 5  of file1
+line 6  of file1
+line 7  of file1
+line 8  of file1
+line 9  of file1
+line 10 of file1
+line 11 of file1
+line 12 of file1
+line 13 of file1
+line 14 of file1
