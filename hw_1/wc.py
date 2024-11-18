@@ -34,7 +34,7 @@ def main():
     else:
         content = sys.stdin.read()
         lines, words, bytes_count = count_words_lines_bytes(content)
-        print(f"{lines} {words} {bytes_count}")
+        print(f"{lines}\t{words}\t{bytes_count}")
 
 if __name__ == "__main__":
     main()
