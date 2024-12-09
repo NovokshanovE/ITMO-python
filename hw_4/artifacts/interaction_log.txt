@@ -1,0 +1,35 @@
+2024-12-09 14:25:08,835: Main process received input: ret
+2024-12-09 14:25:08,837: Process A received: ret
+2024-12-09 14:25:08,838: Process B received: ret
+2024-12-09 14:25:08,839: Process B processed: erg
+2024-12-09 14:25:08,840: Main process received from Process B: erg
+2024-12-09 14:25:11,786: Main process received input: hello
+2024-12-09 14:25:13,843: Process A received: hello
+2024-12-09 14:25:13,844: Process B received: hello
+2024-12-09 14:25:13,844: Process B processed: uryyb
+2024-12-09 14:25:13,845: Main process received from Process B: uryyb
+2024-12-09 14:25:17,731: Main process received input: good
+2024-12-09 14:25:18,848: Process A received: good
+2024-12-09 14:25:18,848: Process B received: good
+2024-12-09 14:25:18,848: Process B processed: tbbq
+2024-12-09 14:25:18,848: Main process received from Process B: tbbq
+2024-12-09 14:25:21,494: Main process received input: flag
+2024-12-09 14:25:23,853: Process A received: flag
+2024-12-09 14:25:23,855: Process B received: flag
+2024-12-09 14:25:23,855: Process B processed: synt
+2024-12-09 14:25:23,856: Main process received from Process B: synt
+2024-12-09 14:25:27,506: Main process received input: privet
+2024-12-09 14:25:28,856: Process A received: privet
+2024-12-09 14:25:28,856: Process B received: privet
+2024-12-09 14:25:28,857: Process B processed: cevirg
+2024-12-09 14:25:28,857: Main process received from Process B: cevirg
+2024-12-09 14:25:33,772: Main process received input: ghtf
+2024-12-09 14:25:33,862: Process A received: ghtf
+2024-12-09 14:25:33,863: Process B received: ghtf
+2024-12-09 14:25:33,863: Process B processed: tugs
+2024-12-09 14:25:33,864: Main process received from Process B: tugs
+2024-12-09 14:25:36,091: Main process received input: joejjdowj
+2024-12-09 14:25:38,867: Process A received: joejjdowj
+2024-12-09 14:25:38,868: Process B received: joejjdowj
+2024-12-09 14:25:38,869: Process B processed: wbrwwqbjw
+2024-12-09 14:25:38,869: Main process received from Process B: wbrwwqbjw
